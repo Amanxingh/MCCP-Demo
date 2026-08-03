@@ -1,0 +1,4 @@
+# Runtime: none — Orderly uses only the Python standard library (sqlite3).
+# Tests need pytest. Offline install from the vendored wheels:
+#   pip install --no-index --find-links=vendor pytest
+pytest>=8,<9
