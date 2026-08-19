@@ -1,0 +1,12 @@
+# Orderly CI — FIXME(T6): this workflow has several deliberate defects.
+# Make it a pipeline that would actually run the test suite on every push.
+name: CI
+on: [pushes]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: python -m pytest
+        env:
+          PYTHON_VERSION: "2.7"
