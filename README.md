@@ -21,6 +21,11 @@ tools, installing test dependencies offline from `vendor/`, and how to run
 
 _TODO(T7b): usage examples go here._
 
+
+> **Running the CLI:** the package lives under `src/`, so when you run CLI
+> commands directly from Git Bash, prefix them with `PYTHONPATH=src`, e.g.
+> `PYTHONPATH=src python -m orderly.cli seed --db out/orderly.db`.
+
 ## Project layout
 
 | Path | Purpose |
